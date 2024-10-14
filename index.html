@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <img src="assets/burger.png" alt="burger menu" id="burger">
+            <ul class="navLinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Magazine</a></li>
+            </ul>
+            <div id="panierContainer">
+                <img src="assets/panier.png" alt="panier" id="panier">
+                <h3 id="login">Login</h3>
+            </div>
+        </nav>
+
+        <div id="search-container">
+            <input type="text" placeholder="Search" id="search-bar">
+            <button type="submit" id="search-button">Search</button>
+        </div> 
+
+
+    </header>
+
+    <main>
+
+        <aside id="filter-section">
+            <h3>Filter By</h3>
+            <div class="filter">
+                <label for="collection">Collection</label>
+                <select id="collection">
+                    <option value="all">All</option>
+                </select>
+            </div>
+            <div class="filter">
+                <label for="color">Color</label>
+                <select id="color">
+                    <option value="all">All</option>
+                </select>
+            </div>
+            <div class="filter">
+                <label for="category">Category</label>
+                <select id="category">
+                    <option value="all">All</option>
+                </select>
+            </div>
+            <div class="filter">
+                <label for="price-range">Price Range</label>
+                <input type="range" id="price-range" min="0" max="10000">
+            </div>
+        </aside>
+
+        <section id="product-grid">
+            <div class="product-item">
+                <img src="assets/Coombes.jpg" alt="Coombes">
+                <h4>Coombes</h4>
+                <p>$2,600</p>
+                <div class="rating">★★★★☆</div>
+                <button>Add to cart</button>
+            </div>
+
+        </section>
+       
+
+    </main>
+</body>
+
+
+</html>

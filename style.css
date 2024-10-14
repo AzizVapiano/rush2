@@ -1,0 +1,220 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+
+.navLinks{
+    list-style-type: none;
+    display: flex;
+}
+
+li{
+    padding: 2rem;
+    font-size: small;
+}
+
+#burger{
+    width: 2vw;
+    height: 2vw;
+    background-color: rgb(43, 43, 43);
+    padding: 1vw;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+#panierContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#panier{
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    justify-content: end;
+}
+
+#login{
+    padding-left: 3vw;
+    font-size: small;
+}
+
+/* 🟦 Added styles for the search bar */
+#search-container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+#search-bar {
+    width: 50%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#search-button {
+    padding: 0.5rem;
+    background-color: #000;
+    color: white;
+    border: none;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+/* 🟦 End of search bar styles */
+
+/* 🟦 Added styles for the filter section */
+#filter-section {
+    width: 20%;
+    padding-right: 2rem;
+    border-right: 1px solid #e0e0e0;
+}
+
+.filter {
+    margin-bottom: 1.5rem;
+}
+
+.filter label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#price-range {
+    width: 100%;
+}
+/* 🟦 End of filter section styles */
+
+/* 🟦 Added styles for the product grid */
+#product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    width: 80%;
+    padding-left: 2rem;
+}
+
+.product-item {
+    border: 1px solid #e0e0e0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-item h4 {
+    margin: 0.5rem 0;
+}
+
+.rating {
+    margin: 0.5rem 0;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+/* 🟦 End of product grid styles */
+
+
+/* 🟦 Added styles for the search bar */
+#search-container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+#search-bar {
+    width: 50%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#search-button {
+    padding: 0.5rem;
+    background-color: #000;
+    color: white;
+    border: none;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+/* 🟦 End of search bar styles */
+
+/* 🟦 Added styles for the filter section */
+#filter-section {
+    width: 20%;
+    padding-right: 2rem;
+    border-right: 1px solid #e0e0e0;
+}
+
+.filter {
+    margin-bottom: 1.5rem;
+}
+
+.filter label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#price-range {
+    width: 100%;
+}
+/* 🟦 End of filter section styles */
+
+/* 🟦 Added styles for the product grid */
+#product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    width: 80%;
+    padding-left: 2rem;
+}
+
+.product-item {
+    border: 1px solid #e0e0e0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-item h4 {
+    margin: 0.5rem 0;
+}
+
+.rating {
+    margin: 0.5rem 0;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+/* 🟦 End of product grid styles */
+
